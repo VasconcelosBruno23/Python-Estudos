@@ -10,4 +10,8 @@ produto3 = input("Informe o terceiro produto para adicioná-lo à lista: ")
 produtos.append(produto3)
 
 print(f"Aqui está a sua lista de produtos: {produtos}")
-print(f"O primeiro item da lista é: {produtos[0]}")
+
+removerProduto = input("Insira um produto existente para removê-lo da lista: ")
+produtos.remove(removerProduto)
+
+print(f"A lista atualizada é: {produtos}")
